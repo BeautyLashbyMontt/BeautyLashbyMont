@@ -1,0 +1,248 @@
+body{
+	Background-image:url("../imagenes/fondo.jpg");
+	font-family:"Times New Roman";
+	font-size:20px;
+	color:#CA5FDF;
+}
+
+
+p{
+	text-align:justify;
+	font-size:20px;
+	color:#CA5FDF;
+}
+hr{
+	border:3px solid #CB2DEA;
+	border-radius:6px;
+	
+}
+table,tr,td{
+	/*Grosor de la linea en pixeles, tipo de linea*/
+	border:3px solid;
+	/*Color de la linea*/
+	border-color:#8ECBE7;
+	background-color:#B38EE7;
+}
+th{
+	background-color:#B38EE7;
+	border:2px solid;
+	border-color:#8ECBE7;
+}
+ul{
+	list-style-type:circle;
+	list-style-position:inside;
+}
+ol{
+	list-style-type:upper-roman;
+	list-style-position:inside;
+}
+.pie{
+	font-family:"Comic Sans MS";
+	font-size:15px;
+	color:#66146C;
+	text-align:center;
+	font-weight:bold;
+}
+.titulo{
+	font-family:"Times New Roman";
+	font-size:54px;
+	color:#8ECBE7;
+	text-align:center;
+}
+.tablas{
+	font-family:"vin";
+	font-size:15px;
+	color:#CC48D6;
+}
+
+.marqueeimg{
+	width:400px;
+	height:500px;
+}
+.portada{
+	height:400;
+	width:600;
+	border:5px solid #A87FDA
+}
+.hipervinculoimg{
+	width:150px;
+	height:150px;
+	border-radius:50%;
+}
+.tablaimg{
+	height:200;
+	width:150;
+}
+@font-face{
+	font-family:Varsity;
+	src: url(..fuentes/varsity_regular.ttf);
+}
+@font-face{
+	font-family:Vin;
+	src:url(../fuentes/vintage.ttf);
+}
+.fuentegoogle{
+	font-family:font-family: 'Nunito', sans-serif;
+	text-align:center;
+	font-size:15px;
+}
+*{
+	margin:0px;
+	padding:0px;
+}
+div#top{
+	width:50%px;
+	height:100px;
+	background-image:linear-gradient(#F309F3,#590959);
+}
+
+div#po{
+	margin:auto;
+	margin-top:10px;
+	width:45%;
+	height:750px;
+	background-image:radial-gradient(#97B9E6,#97E3E6);
+}
+div#pot{
+	margin:auto;
+	margin-top:10px;
+	width:60%;
+	height:550px;
+	background-image:radial-gradient(#97B9E6,#97E3E6);
+}
+div#poa{
+	margin:auto;
+	margin-top:10px;
+	width:80%;
+	height:1300px;
+	background-image:radial-gradient(#97B9E6,#97E3E6);
+}
+div#poe{
+	margin:auto;
+	margin-top:10px;
+	width:60%;
+	height:900px;
+	background-image:radial-gradient(#97B9E6,#97E3E6);
+}
+div#poi{
+	margin:auto;
+	margin-top:10px;
+	width:60%;
+	height:180px;
+	background-image:radial-gradient(#97B9E6,#97E3E6);
+}
+div#botones{
+	margin:auto;
+	margin-top:10px;
+	width:75%;
+	height:150px;
+	background-image:linear-gradient(#F309F3,#590959);
+}
+div#foot{
+	margin:auto;
+	margin-top:10px;
+	width:40%;
+	height:80px;
+	background-image:radial-gradient(#97B9E6,#97E3E6);
+}
+.caja{
+	height:300px;
+	width:250px;
+	background:#FFFFFF;
+	border:1px solid #FBD6FF;
+	margin:5px;
+	color:pink;
+	text-align:center;
+	display:inline-block;
+}
+.caja:hover{
+	box-shadow:0 0 10px #F481FF;
+	transform:scale(1.3);
+}
+.caja-texto{
+	padding-top:5px;
+	padding-bottom:5px;
+	font-size:20px;
+	color:pink;
+	font-weight:bold;
+}
+.texto-adicional{
+	padding-top:5px;
+	font-size:3;
+}
+.carrousel{
+    width: 600px;
+    margin:auto;
+    box-sizing: border-box;
+}
+
+.conteCarrousel{
+    width: 100%;
+    height: 400px;
+    overflow: hidden;
+    box-sizing: border-box;
+}
+
+.itemCarrousel{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+}
+
+.itemCarrouselTarjeta{
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+}
+
+.itemCarrouselArrows{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items:center;
+    justify-content:space-between;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.itemCarrouselArrows > i:hover {
+    cursor: pointer;
+}
+
+.conteCarrouselController{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+.conteCarrouselController > a{
+    text-decoration: none;
+    font-size: 32px;
+    color: grey;
+}
+.itemCarrouselArrows > a > i{
+    color: white;
+}
+.texto{
+	font-family:"vin";
+	font-size:35px;
+	color:#000000;
+	text-align:center;
+}
+.menu{
+	height:300px;
+	width:200px;
+	margin:10px;
+	background-color:blue;
+	text-align:center;
+}
+.menu:hover{
+	box-shadow:0 0 20px white;
+	transform:scale (1.3);
+	background-color:pink;
+}
